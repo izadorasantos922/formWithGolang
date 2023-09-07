@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    <title>WebForm</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">WebForm</h1>
+        <form method="post">
+            <input type="text" name="name" id="" class="name-input" placeholder="Nome">
+            <input type="email" name="email" id="" class="email-input" placeholder="Email">
+            <input type="submit" value="Cadastrar" class="btn">
+        </form>
+        {{if .SucessMessage}}
+        <p class="sucess-message">{{.SucessMessage}}</p>
+        {{end}}
+        {{if .ErrorMessage}}
+        <p class="err-message">{{.ErrorMessage}} </p>
+        {{end}}
+    </div>
+</body>
+</html>
