@@ -34,3 +34,38 @@ This project demonstrates a simple web form built using Go (Golang). It covers b
 - CSS
 
 ---
+
+# Formulário com Golang
+
+Este projeto demonstra um formulário simples na web construído com Go (Golang). Ele aborda conceitos básicos de desenvolvimento web, como manipulação de requisições HTTP, uso de templates HTML e conexão com um banco de dados.
+
+## Instalação
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/izadorasantos922/formWithGolang.git
+    ```
+
+2. Instale as dependências necessárias do Go:
+    ```bash
+    go mod tidy
+    ```
+
+3. Execute o aplicativo:
+    ```bash
+    go run main.go
+    ```
+
+4. Abra seu navegador e acesse `http://localhost:8080` para interagir com o formulário.
+
+## Funcionalidades
+
+- Submissão de formulário web
+- Integração com os pacotes net/http e html/template do Go
+- Conexão com banco de dados (se implementado)
+
+## Tecnologias Utilizadas
+
+- Go (Golang)
+- HTML
+- CSS
